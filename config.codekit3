@@ -101,7 +101,13 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/stylesheets\/_sass\/index.scss": {
+	"\/stylesheets\/_sass\/helpers\/_reset": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/stylesheets\/_sass\/helpers\/_reset",
+		"oF": 0
+		},
+	"\/stylesheets\/_sass\/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -109,18 +115,18 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/css\/index.css",
+		"oAP": "\/stylesheets\/css\/main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/stylesheets\/css\/index.css": {
+	"\/stylesheets\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/stylesheets\/css\/index-min.css",
+		"oAP": "\/stylesheets\/css\/main-min.css",
 		"oF": 0,
 		"oS": 0
 		}
