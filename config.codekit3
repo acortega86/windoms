@@ -105,6 +105,15 @@
 		"oAP": "\/stylesheets\/css\/index-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/stylesheets\/min\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/stylesheets\/min\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		}
 	},
 "hooks": [
