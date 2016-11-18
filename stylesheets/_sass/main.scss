@@ -9,25 +9,31 @@
 //IDS
 body {
     overflow-x:hidden;
+
 }
 
 #container {
   margin: 0px 0px 0px 0px;
-
+  display: block;
 }
+
 
 #navBar {
-  height: 194px;
+  height: 170px;
   width: 100%;
   background-color: #223E47;
+  float:left;
 }
+
 
 #navBar ul {
     float: right;
     height: 100%;
     width: 50%;
+    position: relative;
     color: #FFF;
     font-family: "kollektif", sans-serif;
+    font-size: 25px;
     cursor: pointer;
 }
 
@@ -37,4 +43,98 @@ body {
     padding: 20px;
     display: inline;
 
+}
+
+#splash {
+  height: 433px;
+  width: 100vw;
+  margin-top: 170px;
+  display: block;
+  background: url('../../imgs/AccountinPic.jpg') no-repeat;
+  background-size: 100%;
+  background-position: center;
+  clear: left;
+}
+
+#splash p {
+  height: inherit;
+  width: inherit;
+  position: relative;
+  top: 50px;
+  font-size: 60px;
+  text-align: center;
+  color: #FFF;
+  font-family: "kollektif", sans-serif;
+}
+
+#splash button {
+  height: 92px;
+  width: 350px;
+  position:relative;
+  display: block;
+  bottom: 250px;
+  left: 450px;
+  font-family: "kollektif", sans-serif;
+  font-size: 40px;
+  color: #FFF;
+  background-color: #54B5EE;
+  border-radius: 50px;
+  border-style: none;
+}
+
+#content {
+  height: 685px;
+  width: auto;
+  padding: 115px 0px 0px 0px;
+  text-align: center;
+  color: #223E47
+}
+
+ h1 {
+  font-size: 55px;
+  text-align: center;
+  color: #223E47;
+  font-family: "kollektif", sans-serif;
+}
+
+h2 {
+  @extend h1;
+  font-size: 95px;
+}
+
+#content p {
+  @extend h1;
+  font-size: 35px;
+  padding: 110px;
+  text-align: left;
+}
+
+#content button {
+  height: 92px;
+  width: 350px;
+  position:relative;
+  display: block;
+  bottom: 40px;
+  left: 450px;
+  font-family: "kollektif", sans-serif;
+  font-size: 30px;
+  color: #FFF;
+  background-color: #54B5EE;
+  border-radius: 50px;
+  border-style: none;
+}
+
+h3 {
+  @extend h1;
+  font-size: 35px;
+  text-align: center;
+}
+h4 {
+  @extend h3;
+  padding-top: 20px;
+}
+
+#footer {
+  @extend #navBar;
+  background-color: #B1BC37;
 }

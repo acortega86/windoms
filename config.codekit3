@@ -29,11 +29,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/imgs\/Accounting Pic.jpg": {
+	"\/imgs\/AccountinPic.jpg": {
 		"ft": 16384,
 		"iS": 1316216,
 		"oA": 0,
-		"oAP": "\/imgs\/Accounting Pic.jpg",
+		"oAP": "\/imgs\/AccountinPic.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -69,6 +69,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/logo.png": {
+		"ft": 32768,
+		"iS": 122111,
+		"oA": 0,
+		"oAP": "\/imgs\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/twitter.png": {
 		"ft": 32768,
 		"iS": 1907,
@@ -87,8 +95,8 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/main-min.js",
-		"oF": 0,
+		"oAP": "\/min-main.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -96,8 +104,8 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/min\/min-main-min.js",
-		"oF": 0,
+		"oAP": "\/js\/min\/min-main.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
