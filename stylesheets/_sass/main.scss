@@ -2,3 +2,39 @@
 
 //IMPORTS
 @import 'helpers/reset';
+
+//VARIABLES
+
+
+//IDS
+body {
+    overflow-x:hidden;
+}
+
+#container {
+  margin: 0px 0px 0px 0px;
+
+}
+
+#navBar {
+  height: 194px;
+  width: 100%;
+  background-color: #223E47;
+}
+
+#navBar ul {
+    float: right;
+    height: 100%;
+    width: 50%;
+    color: #FFF;
+    font-family: "kollektif", sans-serif;
+    cursor: pointer;
+}
+
+#navBar ul li {
+    text-align: left;
+    line-height: 194px;
+    padding: 20px;
+    display: inline;
+
+}
