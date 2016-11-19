@@ -8,9 +8,7 @@ h1,
 h2,
 #content p,
 h3,
-h4,
-h5,
-h6, h2, h3, h4, h5, h6, h4, h5, h6, p, blockquote, pre,
+h4, h2, h3, h4, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -53,19 +51,21 @@ table {
   border-spacing: 0; }
 
 body {
-  overflow-x: hidden; }
+  height: 100%; }
 
-#container {
-  margin: 0px 0px 0px 0px;
-  display: block; }
+#wrapper {
+  width: 100vw;
+  min-height: 100%;
+  margin: 0 auto; }
 
-#navBar, #footer {
+#navBar {
   height: 170px;
   width: 100%;
+  position: absolute;
   background-color: #223E47;
   float: left; }
 
-#navBar ul, #footer ul {
+#navBar ul {
   float: right;
   height: 100%;
   width: 50%;
@@ -75,7 +75,7 @@ body {
   font-size: 25px;
   cursor: pointer; }
 
-#navBar ul li, #footer ul li {
+#navBar ul li {
   text-align: left;
   line-height: 194px;
   padding: 20px;
@@ -116,13 +116,13 @@ body {
   border-style: none; }
 
 #content {
-  height: 685px;
+  height: 750px;
   width: auto;
   padding: 115px 0px 0px 0px;
   text-align: center;
   color: #223E47; }
 
-h1, h2, #content p, h3, h4, h5, h6 {
+h1, h2, #content p, h3, h4 {
   font-size: 55px;
   text-align: center;
   color: #223E47;
@@ -150,27 +150,37 @@ h2 {
   border-radius: 50px;
   border-style: none; }
 
-h3, h4, h5, h6 {
+h3, h4 {
   font-size: 35px;
   text-align: center; }
 
 h4 {
-  padding-top: 20px; }
+  padding-top: 40px; }
 
-#footer {
-  height: 200px;
+footer {
+  height: 250px;
+  width: 100%;
   background-color: #B1BC37; }
 
 h5 {
   position: absolute;
-  line-height: 250px;
-  left: 20px; }
+  line-height: 50px;
+  left: 20px;
+  margin: auto;
+  font-size: 35px;
+  color: #223E47;
+  font-family: "kollektif", sans-serif;
+  bottom: -1550px; }
 
 h6 {
   position: absolute;
+  line-height: 50px;
+  font-size: 35px;
+  color: #223E47;
+  font-family: "kollektif", sans-serif;
   text-align: right;
   right: 20px;
-  line-height: 250px; }
+  bottom: -1550px; }
 
 .T {
   height: 49px;
