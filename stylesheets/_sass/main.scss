@@ -136,5 +136,59 @@ h4 {
 
 #footer {
   @extend #navBar;
+  height: 200px;
   background-color: #B1BC37;
+}
+
+#sm {
+
+}
+
+h5 {
+  @extend h3;
+  text-align: left;
+  line-height: 250px;
+}
+
+h6 {
+  @extend h3;
+  text-align: right;
+
+}
+
+.T {
+  height: 49px;
+  width: 47px;
+  display: inline-block;
+  background: url('../../imgs/twitter.png') no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+}
+
+.I {
+  height: 49px;
+  width: 47px;
+  display: inline-block;
+  background: url('../../imgs/linkedin.png') no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.Insta {
+  height: 49px;
+  width: 47px;
+  display: inline-block;
+  background: url('../../imgs/instagram.png') no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.F {
+  height: 49px;
+  width: 47px;
+  display: inline-block;
+  background: url('../../imgs/facebook.png') no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
