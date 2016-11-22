@@ -62,7 +62,7 @@ body {
   background-color: #223E47; }
 
 #logo {
-  height: 170px;
+  height: 220px;
   width: 400px;
   display: inline-block;
   margin: auto;
@@ -82,11 +82,49 @@ body {
   font-size: 30px;
   margin: 0 0 20px 0; }
 
-a {
+li a, .dropbtn {
+  display: inline-block;
+  background-color: #223E47;
+  font-family: "kollektif", sans-serif;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none; }
 
+li a:hover, .dropdown:hover .dropbtn {
+  color: #B1BC37;
+  background-color: #223E47; }
+
+li.dropdown {
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #223E47;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left; }
+
+.dropdown-content a:hover {
+  background-color: #223E47; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+a {
+  text-decoration-color: #B1BC37; }
+
 a:visited {
-  text-decoration: none; }
+  color: white; }
+
+a:active {
+  text-decoration-color: #B1BC37; }
 
 .wrapper li {
   float: left;
@@ -103,7 +141,6 @@ a:visited {
 #splash p {
   height: inherit;
   width: inherit;
-  position: relative;
   font-size: 100px;
   text-align: left;
   line-height: 250px;
@@ -145,8 +182,8 @@ footer {
   height: 80px;
   width: 150px;
   position: absolute;
-  left: 75px;
   bottom: -270px;
+  left: 125px;
   background: url("../../imgs/aicpa.png") no-repeat;
   background-size: 100%;
   background-position: center; }
@@ -169,8 +206,8 @@ footer {
   padding: 30px; }
 
 .T {
-  height: 49px;
-  width: 47px;
+  height: 55px;
+  width: 55px;
   display: inline-block;
   background: url("../../imgs/twitter.png") no-repeat;
   background-size: 100%;
@@ -178,8 +215,8 @@ footer {
   margin-right: 10px; }
 
 .I {
-  height: 49px;
-  width: 47px;
+  height: 55px;
+  width: 55px;
   display: inline-block;
   background: url("../../imgs/linkedin.png") no-repeat;
   background-size: 100%;
@@ -187,8 +224,8 @@ footer {
   margin-right: 10px; }
 
 .Insta {
-  height: 49px;
-  width: 47px;
+  height: 55px;
+  width: 55px;
   display: inline-block;
   background: url("../../imgs/instagram.png") no-repeat;
   background-size: 100%;
@@ -196,8 +233,8 @@ footer {
   margin-right: 10px; }
 
 .F {
-  height: 49px;
-  width: 47px;
+  height: 55px;
+  width: 55px;
   display: inline-block;
   background: url("../../imgs/facebook.png") no-repeat;
   background-size: 100%;
