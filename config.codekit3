@@ -77,6 +77,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/logo2.png": {
+		"ft": 32768,
+		"iS": 99605,
+		"oA": 0,
+		"oAP": "\/imgs\/logo2.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/twitter.png": {
 		"ft": 32768,
 		"iS": 1907,
@@ -109,6 +117,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/stylesheets\/_sass\/helpers\/_mixins": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/stylesheets\/_sass\/helpers\/_mixins",
+		"oF": 0
+		},
 	"\/stylesheets\/_sass\/helpers\/_reset": {
 		"ft": 8192,
 		"oA": 1,
@@ -128,6 +142,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stylesheets\/_sass\/taxes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/stylesheets\/css\/taxes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stylesheets\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
@@ -137,6 +164,12 @@
 		"oAP": "\/stylesheets\/css\/main-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/taxes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/taxes.html",
+		"oF": 0
 		}
 	},
 "hooks": [
